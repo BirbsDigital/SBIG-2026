@@ -3,6 +3,8 @@ using UnityEngine.Events;
 
 public class NPCInteractable : Interactable
 {
+    private bool spokenToToday = false;
+
     [Header("Dialogue")]
     [SerializeField] private string npcName = "NPC";
 
