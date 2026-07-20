@@ -7,7 +7,7 @@ public class PlayerInteractor : MonoBehaviour
     [Header("Detection")]
     [SerializeField] private Camera playerCamera;
     [SerializeField] private float interactionDistance = 5f;
-    [SerializeField] private float detectionRadius = 0.2f;
+    [SerializeField] private float detectionRadius = 1f;
     [SerializeField] private LayerMask interactionLayers = ~0;
 
     [Header("UI")]
